@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim's Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 25px 10px;
+            background-color: #eeece8;
+            font-family: Arial, sans-serif;
+            color: #46515d;
+            font-size: 12px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 390px;
+            margin: auto;
+            padding: 6px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        header {
+            background-color: #d9d0c3;
+            text-align: center;
+            padding: 16px 8px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+
+        header h1 {
+            font-size: 19px;
+            margin: 0 0 5px;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        .profile {
+            text-align: center;
+            padding: 12px;
+            background-color: #f8f7f5;
+            border: 1px solid #e3dfd8;
+            border-radius: 5px;
+        }
+
+        .profile img {
+            width: 90px;
+            height: 105px;
+            object-fit: cover;
+            object-position: center top;
+            border: 3px solid white;
+            border-radius: 7px;
+        }
+
+        .profile h2 {
+            font-size: 15px;
+            margin: 8px 0 5px;
+        }
+
+        .profile p {
+            line-height: 1.5;
+            margin: 4px 0;
+        }
+
+        section {
+            margin-top: 6px;
+            padding: 12px;
+            background-color: #f8f7f5;
+            border: 1px solid #e3dfd8;
+            border-radius: 5px;
+            scroll-margin-top: 10px;
+        }
+
+        section h2 {
+            font-size: 15px;
+            margin: 0 0 10px;
+            padding-bottom: 7px;
+            border-bottom: 1px solid #ddd6cc;
+        }
+
+        section p {
+            line-height: 1.5;
+        }
+
+        .project {
+            background-color: white;
+            border: 1px solid #e7e2db;
+            border-radius: 5px;
+            padding: 9px;
+            margin-bottom: 7px;
+        }
+
+        .project:last-child {
+            margin-bottom: 0;
+        }
+
+        .project h3 {
+            font-size: 13px;
+            margin: 0 0 6px;
+        }
+
+        .project p {
+            margin: 4px 0;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #e8e1d7;
+            padding: 4px 6px;
+            margin: 3px 2px 0 0;
+            border-radius: 4px;
+            font-size: 10px;
+        }
+
+        .subheading {
+            font-size: 12px;
+            background-color: #e8e1d7;
+            padding: 6px;
+            border-radius: 4px;
+            margin: 12px 0 4px;
+        }
+
+        .certificate {
+            padding: 8px 0;
+            border-bottom: 1px dashed #d8d2c9;
+            line-height: 1.5;
+        }
+
+        .certificate:last-child {
+            border-bottom: none;
+        }
+
+        .certificate strong {
+            display: block;
+            font-size: 12px;
+        }
+
+        .date {
+            color: #77736e;
+            font-size: 11px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 12px 5px 7px;
+            font-size: 10px;
+            color: #77736e;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>KIM'S PORTFOLIO</h1>
+        <p>IT Student | Infrastructure Services</p>
+    </header>
+
+    <div class="profile">
+        <img src="profile.jpg" alt="Kim's Profile Picture">
+
+        <h2>Angela Kim Sauler Toriaga</h2>
+
+        <p>3rd Year Bachelor of Science in Information Technology</p>
+        <p>Major in Infrastructure Services</p>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p><strong>Name:</strong> Angela Kim Sauler Toriaga</p>
+        <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
+        <p><strong>Year Level:</strong> 3rd Year</p>
+        <p><strong>Major:</strong> Infrastructure Services</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>01. Tuklas</h3>
+            <p><strong>Year:</strong> 2025–2026</p>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">PHP</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">MySQL</span>
+        </div>
+
+        <div class="project">
+            <h3>02. Kinova Bank</h3>
+            <p><strong>Year:</strong> 2024–2025</p>
+            <span class="tag">Figma</span>
+        </div>
+
+        <div class="project">
+            <h3>03. Hot Box</h3>
+            <p><strong>Year:</strong> 2024–2025</p>
+            <span class="tag">Figma</span>
+        </div>
+
+        <div class="project">
+            <h3>04. Sugardoll Clothing Shop</h3>
+            <p><strong>Year:</strong> 2026</p>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">JavaScript</span>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates & Badges</h2>
+        <p>Cisco Networking Academy</p>
+
+        <h3 class="subheading">October 2026</h3>
+
+        <div class="certificate">
+            <strong>Badge — Network Addressing and Basic Troubleshooting</strong>
+            <span class="date">October 19, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Certificate — Network Addressing and Basic Troubleshooting</strong>
+            <span class="date">October 19, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Achievement — Troubleshooting Basics</strong>
+            <span class="date">October 19, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Achievement — Scaling IP Addressing</strong>
+            <span class="date">October 19, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Achievement — Physical, Data and Network Layers Basics</strong>
+            <span class="date">October 18, 2026</span>
+        </div>
+
+        <h3 class="subheading">August 2026</h3>
+
+        <div class="certificate">
+            <strong>Badge — Linux Essentials</strong>
+            <span class="date">August 8, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Certificate — Linux Essentials</strong>
+            <span class="date">August 8, 2026</span>
+        </div>
+
+        <h3 class="subheading">July 2026</h3>
+
+        <div class="certificate">
+            <strong>Badge — Linux Unhatched</strong>
+            <span class="date">July 23, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Certificate — Linux Unhatched</strong>
+            <span class="date">July 23, 2026</span>
+        </div>
+
+        <h3 class="subheading">March 2026</h3>
+
+        <div class="certificate">
+            <strong>Badge — Networking Devices and Initial Configuration</strong>
+            <span class="date">March 4, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Certificate — Networking Devices and Initial Configuration</strong>
+            <span class="date">March 4, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Achievement — Basic Cisco Configuration</strong>
+            <span class="date">March 4, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Achievement — Transport Services Basics</strong>
+            <span class="date">March 4, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Achievement — Understanding Network Access</strong>
+            <span class="date">March 4, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Achievement — Hierarchical Design and Number Systems</strong>
+            <span class="date">March 4, 2026</span>
+        </div>
+
+        <h3 class="subheading">January 2026</h3>
+
+        <div class="certificate">
+            <strong>Badge — Networking Basics</strong>
+            <span class="date">January 16, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Certificate — Networking Basics</strong>
+            <span class="date">January 16, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Achievement — Networking Protocols Basics</strong>
+            <span class="date">January 12, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Achievement — Network Communications Basics</strong>
+            <span class="date">January 12, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Achievement — Internet Protocol Basics</strong>
+            <span class="date">January 2, 2026</span>
+        </div>
+
+        <div class="certificate">
+            <strong>Achievement — Network Access Basics</strong>
+            <span class="date">January 2, 2026</span>
+        </div>
+
+        <h3 class="subheading">December 2025</h3>
+
+        <div class="certificate">
+            <strong>Achievement — Network Basics</strong>
+            <span class="date">December 31, 2025</span>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Kim's Portfolio
+        <p>Made with HTML & CSS</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
